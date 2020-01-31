@@ -1,0 +1,247 @@
+html {
+  font-family: 'Open Sans';
+}
+
+h1 {
+  font-size: 25px;
+
+  @media (min-width: 992px) {
+    font-size: 35px;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 42px;
+  }
+}
+
+p {
+  font-size: 18px;
+  @media (min-width: 992px) {
+    font-size: 22px;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 26px;
+  }
+}
+
+.btn {
+  padding: 8px 22px;
+  border-radius: 3px;
+  font-size: 13px;
+  text-transform: uppercase;
+  margin-right: 15px;
+  box-shadow: none !important;
+
+  @media (min-width: 1200px) {
+    padding: 10px 30px;
+    font-size: 16px;
+  }
+}
+
+.btn-primary {
+  background-color: #ff891e;
+  border-color: #ff891e;
+
+  &:hover {
+    background-color: #da771a;
+    border-color: #da771a;
+  }
+
+  &:not(:disabled):not(.disabled):active,
+  &:focus {
+    background-color: #bd6716;
+    border-color: #bd6716;
+  }
+}
+
+.btn-secondary {
+  color: #000000;
+  background-color: transparent;
+  border: 1px solid #212121;
+
+  &:hover {
+    color: #5f5f5f;
+    background-color: transparent;
+    border-color: #5f5f5f;
+  }
+
+  &:not(:disabled):not(.disabled):active,
+  &:focus {
+    color: #7c7c7c;
+    background-color: transparent;
+    border-color: #7c7c7c;
+  }
+}
+
+.splash-screen {
+  background-color: #c4cdd6;
+  z-index: 100;
+
+  .btn {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.page-content {
+  .carousel-indicator {
+    width: 13px;
+    height: 13px;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 13px;
+    opacity: 1;
+
+    &:not(last-child) {
+      margin: 0 15px 0 0;
+    }
+
+    @media (min-width: 992px) {
+      min-width: 190px;
+      height: auto;
+      padding: 5px;
+      text-indent: 0;
+      border-width: 0;
+      border-radius: 3px;
+      background: rgba(0, 0, 0, 0.15);
+    }
+
+    @media (min-width: 1200px) {
+      width: 274px;
+
+      &:first-child {
+        margin-left: 250px;
+      }
+    }
+
+    &.active {
+      background-color: #282828;
+
+      @media (min-width: 992px) {
+        background: rgba(0, 0, 0, 0.5);
+        border: 1px solid rgba(0, 0, 0, 0.44);
+      }
+    }
+
+    .summary {
+      color: #ffffff;
+      text-shadow: 1px 1px 1px rgba(2, 2, 2, 0.2);
+
+      .summary-image {
+        width: 40px;
+        border-radius: 5px;
+        margin-right: 5px;
+
+        @media (min-width: 1200px) {
+          width: 48px;
+          margin-right: 10px;
+        }
+      }
+
+      .summary-text {
+        .summary-desc {
+          font-size: 9px;
+          font-weight: 400;
+          margin: 0;
+
+          @media (min-width: 1200px) {
+            font-size: 11px;
+          }
+        }
+
+        .summary-heading {
+          font-size: 10px;
+          font-weight: 700;
+          margin: 0;
+
+          @media (min-width: 1200px) {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+  .carousel-item {
+    background-color: #ffffff;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    &:nth-child(1) {
+      background-image: url('../img/slides-mobile/slider_1min.jpg');
+
+      @media (min-width: 992px) {
+        background-image: url('../img/slides/slider_1.jpg');
+      }
+    }
+
+    &:nth-child(2) {
+      background-image: url('../img/slides-mobile/slider_2min.jpg');
+
+      @media (min-width: 992px) {
+        background-image: url('../img/slides/slider_2.jpg');
+      }
+    }
+
+    &:nth-child(3) {
+      background-image: url('../img/slides-mobile/slider_3min.jpg');
+
+      @media (min-width: 992px) {
+        background-image: url('../img/slides/slider_3.jpg');
+      }
+    }
+
+    &:nth-child(4) {
+      background-image: url('../img/slides-mobile/slider_4min.jpg');
+
+      @media (min-width: 992px) {
+        background-image: url('../img/slides/slider_4.jpg');
+      }
+    }
+
+    .slide-content {
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+
+      .slide-content-text {
+        margin-bottom: 15px;
+
+        .heading {
+          margin-bottom: 0;
+
+          @media (min-width: 992px) {
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    height: 85px;
+    width: 77px;
+    border-radius: 3px;
+    background: rgba(0, 0, 0, 0.1);
+    opacity: 1;
+    top: 50%;
+    transform: translate(0, -50%);
+
+    .carousel-control-icon {
+      color: #ffffff;
+      font-size: 30px;
+
+      &.fa-angle-left {
+        margin-right: 10px;
+      }
+
+      &.fa-angle-right {
+        margin-left: 10px;
+      }
+    }
+  }
+}

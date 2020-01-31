@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i&display=swap&subset=cyrillic"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/styles.min.css" />
+  <title>Слайдер</title>
+</head>
+
+<body>
+  <div class="splash-screen vh-100 position-fixed w-100">
+    <button type="button" class="splash-hide-button btn btn-primary position-absolute">Начать демонстрацию</button>
+  </div>
+  <div class="page-content">
+    <div id="pageCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+      <ol class="carousel-indicators">
+        <li data-target="#pageCarousel" data-slide-to="0" class="carousel-indicator active">
+          <div class="summary d-none d-lg-flex align-items-center">
+            <img src="img/slides-preview/slider_1pre.jpg" alt="" class="summary-image d-block" />
+            <div class="summary-text">
+              <p class="summary-desc">Акция действует с 01.07.18</p>
+              <h2 class="summary-heading">Этот текст добавлен для демонстрации на странице</h2>
+            </div>
+          </div>
+        </li>
+        <li data-target="#pageCarousel" data-slide-to="1" class="carousel-indicator">
+          <div class="summary d-none d-lg-flex align-items-center">
+            <img src="img/slides-preview/slider_2pre.jpg" alt="" class="summary-image d-block" />
+            <div class="summary-text">
+              <p class="summary-desc">Акция действует с 01.07.18</p>
+              <h2 class="summary-heading">Этот текст добавлен для демонстрации на странице</h2>
+            </div>
+          </div>
+        </li>
+        <li data-target="#pageCarousel" data-slide-to="2" class="carousel-indicator">
+          <div class="summary d-none d-lg-flex align-items-center">
+            <img src="img/slides-preview/slider_3pre.jpg" alt="" class="summary-image d-block" />
+            <div class="summary-text">
+              <p class="summary-desc">Акция действует с 01.07.18</p>
+              <h2 class="summary-heading">Этот текст добавлен для демонстрации на странице</h2>
+            </div>
+          </div>
+        </li>
+        <li data-target="#pageCarousel" data-slide-to="3" class="carousel-indicator d-none d-lg-block">
+          <div class="summary d-none d-lg-flex align-items-center">
+            <img src="img/slides-preview/slider_4pre.jpg" alt="" class="summary-image d-block" />
+            <div class="summary-text">
+              <p class="summary-desc">Акция действует с 01.07.18</p>
+              <h2 class="summary-heading">Этот текст добавлен для демонстрации на странице</h2>
+            </div>
+          </div>
+        </li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <div class="row justify-content-center justify-content-lg-end">
+              <div class="col-8 col-lg-7 vh-100 position-relative">
+                <div class="slide-content position-absolute w-100 text-center text-lg-left">
+                  <div class="slide-content-text">
+                    <h1 class="heading">Этот текст добавлен для демонстрации на странице</h1>
+                    <p class="subheading d-none d-lg-block">Акция действует с 01.07.18 по 31.07.18</p>
+                    <p class="mobile-subheading d-lg-none">Тест на внимательность</p>
+                  </div>
+                  <button type="button" class="splash-hide-button btn btn-primary">Подробнее</button>
+                  <button type="button" class="splash-hide-button btn btn-secondary d-none d-lg-inline-block">Все
+                    акции</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row justify-content-center justify-content-lg-end">
+              <div class="col-8 col-lg-7 vh-100 position-relative">
+                <div class="slide-content position-absolute w-100 text-center text-lg-left">
+                  <div class="slide-content-text">
+                    <h1 class="heading">Этот текст добавлен для демонстрации на странице</h1>
+                    <p class="subheading d-none d-lg-block">Акция действует с 01.07.18 по 31.07.18</p>
+                    <p class="mobile-subheading d-lg-none">Тест на внимательность</p>
+                  </div>
+                  <button type="button" class="splash-hide-button btn btn-primary">Подробнее</button>
+                  <button type="button" class="splash-hide-button btn btn-secondary d-none d-lg-inline-block">Все
+                    акции</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row justify-content-center justify-content-lg-end">
+              <div class="col-8 col-lg-7 vh-100 position-relative">
+                <div class="slide-content position-absolute w-100 text-center text-lg-left">
+                  <div class="slide-content-text">
+                    <h1 class="heading">Этот текст добавлен для демонстрации на странице</h1>
+                    <p class="subheading d-none d-lg-block">Акция действует с 01.07.18 по 31.07.18</p>
+                    <p class="mobile-subheading d-lg-none">Тест на внимательность</p>
+                  </div>
+                  <button type="button" class="splash-hide-button btn btn-primary">Подробнее</button>
+                  <button type="button" class="splash-hide-button btn btn-secondary d-none d-lg-inline-block">Все
+                    акции</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row justify-content-center justify-content-lg-end">
+              <div class="col-8 col-lg-7 vh-100 position-relative">
+                <div class="slide-content position-absolute w-100 text-center text-lg-left">
+                  <div class="slide-content-text">
+                    <h1 class="heading">Этот текст добавлен для демонстрации на странице</h1>
+                    <p class="subheading d-none d-lg-block">Акция действует с 01.07.18 по 31.07.18</p>
+                    <p class="mobile-subheading d-lg-none">Тест на внимательность</p>
+                  </div>
+                  <button type="button" class="splash-hide-button btn btn-primary">Подробнее</button>
+                  <button type="button" class="splash-hide-button btn btn-secondary d-none d-lg-inline-block">Все
+                    акции</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev d-none d-lg-flex d-xl-none" href="#pageCarousel" role="button"
+          data-slide="prev">
+          <span class="carousel-control-icon fas fa-angle-left" aria-hidden="true"></span>
+          <span class="sr-only">Предыдущий</span>
+        </a>
+        <a class="carousel-control-next d-none d-lg-flex d-xl-none" href="#pageCarousel" role="button"
+          data-slide="next">
+          <span class="carousel-control-icon fas fa-angle-right" aria-hidden="true"></span>
+          <span class="sr-only">Следующий</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <script src="js/script.min.js"></script>
+</body>
+
+</html>
