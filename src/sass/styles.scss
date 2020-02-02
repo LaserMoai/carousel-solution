@@ -2,29 +2,6 @@ body {
   font-family: 'Open Sans';
 }
 
-h1 {
-  font-size: 25px;
-
-  @media (min-width: 992px) {
-    font-size: 35px;
-  }
-
-  @media (min-width: 1200px) {
-    font-size: 42px;
-  }
-}
-
-p {
-  font-size: 18px;
-  @media (min-width: 992px) {
-    font-size: 22px;
-  }
-
-  @media (min-width: 1200px) {
-    font-size: 26px;
-  }
-}
-
 .btn {
   padding: 8px 22px;
   border-radius: 3px;
@@ -205,11 +182,30 @@ p {
     .slide-content-text {
       margin-bottom: 15px;
 
-      .heading {
+      h1 {
+        font-size: 25px;
+        font-weight: 400;
         margin-bottom: 0;
 
         @media (min-width: 992px) {
+          font-size: 35px;
           margin-bottom: 10px;
+        }
+
+        @media (min-width: 1200px) {
+          font-size: 42px;
+        }
+      }
+
+      p {
+        font-size: 18px;
+        
+        @media (min-width: 992px) {
+          font-size: 22px;
+        }
+
+        @media (min-width: 1200px) {
+          font-size: 26px;
         }
       }
     }
