@@ -109,32 +109,28 @@ body {
   .page-content .carousel-indicator {
     width: 274px;
   }
-  /* line 91, src/sass/styles.scss */
-  .page-content .carousel-indicator:first-child {
-    margin-left: 250px;
-  }
 }
 
-/* line 96, src/sass/styles.scss */
+/* line 92, src/sass/styles.scss */
 .page-content .carousel-indicator.active {
   background-color: #282828;
 }
 
 @media (min-width: 992px) {
-  /* line 96, src/sass/styles.scss */
+  /* line 92, src/sass/styles.scss */
   .page-content .carousel-indicator.active {
     background: rgba(0, 0, 0, 0.5);
     border: 1px solid rgba(0, 0, 0, 0.44);
   }
 }
 
-/* line 105, src/sass/styles.scss */
+/* line 101, src/sass/styles.scss */
 .page-content .carousel-indicator .summary {
   color: #ffffff;
   text-shadow: 1px 1px 1px rgba(2, 2, 2, 0.2);
 }
 
-/* line 109, src/sass/styles.scss */
+/* line 105, src/sass/styles.scss */
 .page-content .carousel-indicator .summary .summary-image {
   width: 40px;
   border-radius: 5px;
@@ -142,14 +138,14 @@ body {
 }
 
 @media (min-width: 1200px) {
-  /* line 109, src/sass/styles.scss */
+  /* line 105, src/sass/styles.scss */
   .page-content .carousel-indicator .summary .summary-image {
     width: 48px;
     margin-right: 10px;
   }
 }
 
-/* line 121, src/sass/styles.scss */
+/* line 117, src/sass/styles.scss */
 .page-content .carousel-indicator .summary .summary-text .summary-desc {
   font-size: 9px;
   font-weight: 400;
@@ -157,13 +153,13 @@ body {
 }
 
 @media (min-width: 1200px) {
-  /* line 121, src/sass/styles.scss */
+  /* line 117, src/sass/styles.scss */
   .page-content .carousel-indicator .summary .summary-text .summary-desc {
     font-size: 11px;
   }
 }
 
-/* line 131, src/sass/styles.scss */
+/* line 127, src/sass/styles.scss */
 .page-content .carousel-indicator .summary .summary-text .summary-heading {
   font-size: 10px;
   font-weight: 700;
@@ -171,13 +167,13 @@ body {
 }
 
 @media (min-width: 1200px) {
-  /* line 131, src/sass/styles.scss */
+  /* line 127, src/sass/styles.scss */
   .page-content .carousel-indicator .summary .summary-text .summary-heading {
     font-size: 12px;
   }
 }
 
-/* line 143, src/sass/styles.scss */
+/* line 139, src/sass/styles.scss */
 .page-content .carousel-item {
   background-color: #ffffff;
   background-size: cover;
@@ -186,60 +182,60 @@ body {
   background-attachment: fixed;
 }
 
-/* line 150, src/sass/styles.scss */
+/* line 146, src/sass/styles.scss */
 .page-content .carousel-item:nth-child(1) {
   background-image: url("../img/slides-mobile/slider_1min.jpg");
 }
 
 @media (min-width: 992px) {
-  /* line 150, src/sass/styles.scss */
+  /* line 146, src/sass/styles.scss */
   .page-content .carousel-item:nth-child(1) {
     background-image: url("../img/slides/slider_1.jpg");
   }
 }
 
-/* line 158, src/sass/styles.scss */
+/* line 154, src/sass/styles.scss */
 .page-content .carousel-item:nth-child(2) {
   background-image: url("../img/slides-mobile/slider_2min.jpg");
 }
 
 @media (min-width: 992px) {
-  /* line 158, src/sass/styles.scss */
+  /* line 154, src/sass/styles.scss */
   .page-content .carousel-item:nth-child(2) {
     background-image: url("../img/slides/slider_2.jpg");
   }
 }
 
-/* line 166, src/sass/styles.scss */
+/* line 162, src/sass/styles.scss */
 .page-content .carousel-item:nth-child(3) {
   background-image: url("../img/slides-mobile/slider_3min.jpg");
 }
 
 @media (min-width: 992px) {
-  /* line 166, src/sass/styles.scss */
+  /* line 162, src/sass/styles.scss */
   .page-content .carousel-item:nth-child(3) {
     background-image: url("../img/slides/slider_3.jpg");
   }
 }
 
-/* line 174, src/sass/styles.scss */
+/* line 170, src/sass/styles.scss */
 .page-content .carousel-item:nth-child(4) {
   background-image: url("../img/slides-mobile/slider_4min.jpg");
 }
 
 @media (min-width: 992px) {
-  /* line 174, src/sass/styles.scss */
+  /* line 170, src/sass/styles.scss */
   .page-content .carousel-item:nth-child(4) {
     background-image: url("../img/slides/slider_4.jpg");
   }
 }
 
-/* line 182, src/sass/styles.scss */
+/* line 178, src/sass/styles.scss */
 .page-content .carousel-item .slide-content-text {
   margin-bottom: 15px;
 }
 
-/* line 185, src/sass/styles.scss */
+/* line 181, src/sass/styles.scss */
 .page-content .carousel-item .slide-content-text h1 {
   font-size: 25px;
   font-weight: 400;
@@ -247,7 +243,7 @@ body {
 }
 
 @media (min-width: 992px) {
-  /* line 185, src/sass/styles.scss */
+  /* line 181, src/sass/styles.scss */
   .page-content .carousel-item .slide-content-text h1 {
     font-size: 35px;
     margin-bottom: 10px;
@@ -255,32 +251,32 @@ body {
 }
 
 @media (min-width: 1200px) {
-  /* line 185, src/sass/styles.scss */
+  /* line 181, src/sass/styles.scss */
   .page-content .carousel-item .slide-content-text h1 {
     font-size: 42px;
   }
 }
 
-/* line 200, src/sass/styles.scss */
+/* line 196, src/sass/styles.scss */
 .page-content .carousel-item .slide-content-text p {
   font-size: 18px;
 }
 
 @media (min-width: 992px) {
-  /* line 200, src/sass/styles.scss */
+  /* line 196, src/sass/styles.scss */
   .page-content .carousel-item .slide-content-text p {
     font-size: 22px;
   }
 }
 
 @media (min-width: 1200px) {
-  /* line 200, src/sass/styles.scss */
+  /* line 196, src/sass/styles.scss */
   .page-content .carousel-item .slide-content-text p {
     font-size: 26px;
   }
 }
 
-/* line 214, src/sass/styles.scss */
+/* line 210, src/sass/styles.scss */
 .page-content .carousel-control-prev,
 .page-content .carousel-control-next {
   height: 85px;
@@ -293,20 +289,20 @@ body {
           transform: translate(0, -50%);
 }
 
-/* line 224, src/sass/styles.scss */
+/* line 220, src/sass/styles.scss */
 .page-content .carousel-control-prev .carousel-control-icon,
 .page-content .carousel-control-next .carousel-control-icon {
   color: #ffffff;
   font-size: 30px;
 }
 
-/* line 228, src/sass/styles.scss */
+/* line 224, src/sass/styles.scss */
 .page-content .carousel-control-prev .carousel-control-icon.fa-angle-left,
 .page-content .carousel-control-next .carousel-control-icon.fa-angle-left {
   margin-right: 10px;
 }
 
-/* line 232, src/sass/styles.scss */
+/* line 228, src/sass/styles.scss */
 .page-content .carousel-control-prev .carousel-control-icon.fa-angle-right,
 .page-content .carousel-control-next .carousel-control-icon.fa-angle-right {
   margin-left: 10px;
